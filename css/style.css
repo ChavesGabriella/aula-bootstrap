@@ -1,0 +1,35 @@
+*{
+    font-size: 16px;
+}
+
+header{
+    height: 10vh;
+}
+
+.carousel-inner{
+    height: 90vh;
+}
+
+.icon{
+    font-size: 2rem;
+    color: black;
+}
+
+.btn-primary{
+    background-color: black;
+    border-color: gray;
+}
+.btn-primary:hover{
+    border-color: black;
+    background-color: gray;
+    color: black;
+}
+
+@media (max-width: 992px){
+    header{
+        height: 100%;
+    }
+    .carousel-inner{
+        height: 100%;
+    }
+}
